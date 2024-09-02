@@ -1,0 +1,99 @@
+/* styles.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(4 108 98 / 80%); /* Adjust opacity if needed */
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* Prevent header from shrinking */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    text-align: center;
+    background: url('Src/24.jpg');
+    background-size: cover;
+    color: #333; /* Adjust text color for readability */
+}
+
+.welcome-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    max-width: 183px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: rgb(4 108 98 / 80%); /* Adjust opacity if needed */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    flex-shrink: 0; /* Prevent footer from shrinking */
+}
